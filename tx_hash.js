@@ -61,9 +61,9 @@ const decodeTransactionInput = async (inputData) => {
 };
 
 // Usage example:
-const token1 = "0xToken1Address";  // Replace with actual token1 address
-const token2 = "0xToken2Address";  // Replace with actual token2 address
-const buyPrice = 100;  // Define buy price (if needed)
-const sellPrice = 90;  // Define sell price (if needed)
+const token1 = "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409";  // Replace with actual token1 address
+const token2 = "0xe9e7cea3dedca5984780bafc599bd69add087d56";  // Replace with actual token2 address
+const buyPrice = 0.9761751266809685;  // Define buy price (if needed)
+const sellPrice = 1;  // Define sell price (if needed)
 
 getTransactionHash(token1, token2, buyPrice, sellPrice);
